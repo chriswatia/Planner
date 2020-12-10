@@ -1,9 +1,9 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Planner.Shared
+namespace Planner.Shared.Models
 {
-    public class Register
+    public class RegisterRequest
     {
         [Required]
         [EmailAddress]
